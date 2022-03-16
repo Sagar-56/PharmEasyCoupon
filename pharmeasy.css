@@ -96,36 +96,34 @@ form{
 }
     /* coupon */
 #coupon{
-    width: 280px;
-    height: 170px;
+    width: 300px;
+    height: 190px;
     background-color: #07b9e0;
     background-image: url(PharEasy\ coupon.png);
     background-size: 100% 100%;
     position: absolute;
     visibility: hidden;
-    box-shadow:1px 1px 0px gray,
-    1px 1px 0px gray,
-    2px 2px 0px gray,
-    3px 3px 0px gray,
-    4px 4px 0px gray,
-    5px 5px 0px gray;
-    /* background-color: #07b9e0; */
-    z-index: 90;
+    /* box-shadow:0px 1px 0px black,
+    0px 1px 0px black,
+    0px 2px 0px black,
+    0px 3px 0px black,
+    0px 4px 0px black,
+    0px 5px 0px black; */
+    box-shadow: 0px 5px 6px 0px black;
+    z-index: 150;
     margin-left: 38%;
     margin-top: 250px;
-    filter: brightness(110%);
+    /* filter: brightness(110%); */
+    position: fixed;
 }
 #coupon button{
     outline: none;
     border: none;
     position: absolute;
 }
-#coupon .btn a{
-    text-decoration: none;
-}
-#coupon .btn{
-    margin-top: 130px;
-    margin-left: 50px;
+#coupon button:hover{
+    background-color: red;
+    color: #FFFFFF;
 }
 #coupon > img{
     width: 70px;
@@ -134,6 +132,20 @@ form{
     /* margin-left: 1%; */
     /* background-color: #1faaa3 !important; */
     margin-top: 130px;
+}
+.code h1{
+    border: 2px  dashed gray;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: beige;
+    color: lightcoral;
+    padding: 8px 12px;
+    margin: -30px 110px;
+    /* letter-spacing: 0.5px; */
+}
+.code h1:hover{
+    text-decoration: underline;
 }
 :root{
     --primary-color: #000000;
