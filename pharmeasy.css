@@ -101,7 +101,7 @@ form{
     background-color: #07b9e0;
     background-image: url(PharEasy\ coupon.png);
     background-size: 100% 100%;
-    position: absolute;
+    position: relative;
     visibility: hidden;
     /* box-shadow:0px 1px 0px black,
     0px 1px 0px black,
@@ -111,10 +111,10 @@ form{
     0px 5px 0px black; */
     box-shadow: 0px 5px 6px 0px black;
     z-index: 150;
-    margin-left: 38%;
-    margin-top: 250px;
-    /* filter: brightness(110%); */
+    margin-left: 50%;
+    margin-right: 50%;
     position: fixed;
+    transform: translate(-50%, 130%);
 }
 #coupon button{
     outline: none;
@@ -159,7 +159,7 @@ form{
     --ninth-color: #f7efcc;
     --tenth-color: #a0cfe7;
     --eleventh-color:#E7E5E5;
-    --twelfth-color: #1faaa3;
+    --twelfth-color: #1a7a76;
     --thirteen-color: rgb(170, 160, 160);
     --fourteen-color: #29504e;
     --fifteen-color: #10847e;
@@ -286,15 +286,17 @@ form{
     width: 97%;
     height: 205px;
     margin: 2.8% 0.5%;
+    display: inline-block;
 }
 .boxdiv .box{
-    width: 328px;
+    width: 31.3%;
     height: 180px;
     /* border: 1px solid var(--eleventh-color); */
     float: left;
     box-shadow: 0px 0px 2px 2px var(--eleventh-color);
     margin-left: 2%;
     border-radius: 6px;
+    position: relative;
 }
 .box a .imgcont > img{
     width: 180px;
@@ -647,7 +649,7 @@ form{
     margin-right: 1px;
 }
 .featureimgcont{
-    width: 112px;
+    width: 10.5%;
     height: 165px;
     float: left;
     margin-left: 1px;
@@ -857,7 +859,7 @@ form{
 /* Health Articles */
 
 .Healthbdiv{
-    width: 336px;
+    width: 32%;
     height: 210px;
     float: left;
     border-radius: 6px;
@@ -941,7 +943,7 @@ form{
 }
 .userdiv .userimg > img{
     float: left;
-    width: 150px;
+    width: 16.5%;
     height: 120px;
     margin-left: 5px;
     margin-top: 15px;
@@ -1003,7 +1005,7 @@ form{
     margin-right: 25px;
 }
 .pinodesimgcont .pinodesimg{
-    width: 240px;
+    width: 23%;
     height: 220px;
     background-color: #f2fff8;
     float: left;
