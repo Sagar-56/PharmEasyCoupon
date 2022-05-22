@@ -1,6 +1,6 @@
 [
     {
-        "product_id":1,
+        "Product_id":1,
         "Product_Name":"Coviself Covid Self Test Kit",
         "Old_Price": "MRP ₹250.00",
         "New_Price": "₹147.25",
@@ -42,18 +42,18 @@
             
          },
          {
-            "p_id":2,
+            "p_id":1,
             "package_size":"4 NO'S",
             "package_cost":"₹200.00"
          } ,
          {
-            "p_id":3,
+            "p_id":1,
             "package_size": "10 NO'S",
             "package_cost":"₹250.00"
 
          },
          {
-            "p_id":4,
+            "p_id":1,
             "package_size4": "20 NO'S",
             "package_cost":"₹350.00"
 
@@ -90,24 +90,24 @@
         "State_id": 1,
         "package_size":[
          {
-            "p_id":5,
+            "p_id":2,
             "package_size":  "60 ML",
             "package_cost":"₹50.00"
             
          },
          {
-            "p_id":6,
+            "p_id":2,
             "package_size": "125 ML",
             "package_cost":"₹80.00"
          } ,
          {
-            "p_id":7,
+            "p_id":2,
             "package_size":"250 ML",
             "package_cost":"₹90.00"
 
          },
          {
-            "p_id":8,
+            "p_id":2,
             "package_size4":"550 ML",
             "package_cost":"₹95.00"
 
@@ -129,24 +129,24 @@
         "State_id": 1,
         "package_size":[
          {
-            "p_id":9,
+            "p_id":3,
             "package_size":  "60 ML", 
             "package_cost":"₹150.00"
             
          },
          {
-            "p_id":10,
+            "p_id":3,
             "package_size": "125 ML",
             "package_cost":"₹200.00"
          } ,
          {
-            "p_id":12,
+            "p_id":3,
             "package_size": "250 ML",
             "package_cost":"₹250.00"
 
          },
          {
-            "p_id":13,
+            "p_id":3,
             "package_size4":"550 ML",
             "package_cost":"₹350.00"
 
@@ -154,13 +154,13 @@
         ],
         "flavor":[
            {
-              "flavor_id":3,
-              "flavor_name":"LIME & LEMON",
+            "flavor_id":1,
+            "flavor_name":"LIME & LEMON",
             "flavor_cost":"₹190.00"
 
            },
            {
-            "flavor_id":4,
+            "flavor_id":2,
             "flavor_name":"MENTHOL COOL",
             "flavor_cost":"₹170.00"
          }
@@ -181,8 +181,8 @@
         "State_id": 1,
         "flavor":[
          {
-            "flavor_id":5,
-            "flavor_name":  "LEMON",
+         "flavor_id":1,
+         "flavor_name": "LEMON",
           "flavor_cost":"₹190.00"
 
          },
@@ -193,18 +193,18 @@
         ],
         "package_size":[
          {
-            "p_id":14,
+            "p_id":4,
             "package_size": "100 ML",
             "package_cost":"₹150.00"
             
          },
          {
-            "p_id":15,
+            "p_id":4,
             "package_size": "200 ML",
             "package_cost":"₹200.00"
          } ,
          {
-            "p_id":16,
+            "p_id":4,
             "package_size": "500 ML",
             "package_cost":"₹250.00"
 
@@ -226,31 +226,31 @@
         "State_id": 2,
         "flavor":[
          {
-            "flavor_id":7,
+            "flavor_id":3,
             "flavor_name": "CHOCOLATE",
             "flavor_cost":"₹1390.00"
 
          },
          {
-          "flavor_id":8,
+          "flavor_id":4,
           "flavor_name":"VANILLA",
           "flavor_cost":"₹1470.00"
          }
           ],
      "package_size":[
       {
-         "p_id":17,
+         "p_id":5,
          "package_size": "200 G",
          "package_cost":"₹1550.00"
          
       },
       {
-         "p_id":18,
+         "p_id":5,
          "package_size": "400 G", 
          "package_cost":"₹1600.00"
       } ,
       {
-         "p_id":19,
+         "p_id":5,
          "package_size": "1000 G",
          "package_cost":"₹2250.00"
       }
@@ -272,18 +272,18 @@
         "State_id": 2,
         "package_size":[
          {
-            "p_id":20,
+            "p_id":26,
             "package_size": "200 G",
             "package_cost":"₹180.00"
             
          },
          {
-            "p_id":21,
+            "p_id":26,
             "package_size": "400 G", 
             "package_cost":"₹280.00"
          } ,
          {
-            "p_id":22,
+            "p_id":26,
             "package_size": "1000 G",
             "package_cost":"₹350.00"
          }
@@ -341,20 +341,20 @@
         "State_id": 2,
         "Variants":[
            {
-           "variant_id1":1,
+           "variant_id":1,
            "variant_name": "RAW CHIA SEED",
            "variant_cost":"₹410.00"
            },
            {
-           "variant_id1":2,
+           "variant_id":2,
            "variant_name": "RAW MIX SEED",
            "variant_cost":"₹191.00"
             },
             {
-               "variant_id1":3,
-               "variant_name": "ROASTED MIX SEED",
-               "variant_cost":"₹280.00"
-             }
+            "variant_id":3,
+            "variant_name": "ROASTED MIX SEED",
+            "variant_cost":"₹280.00"
+            }
         ],
         "Product_image": [
            "https://i.ibb.co/GCPjtfT/health6.png",
@@ -381,7 +381,7 @@
         "State_id": 2,
          "flavor_type":[
             {
-               "flavor_id":1,
+               "flavor_id":3,
                "flavor_name":"CHOCOLATE",
                "flavor_cost": "₹1700.00"
             },
@@ -391,17 +391,17 @@
                "flavor_cost": "₹1800.00"
             }
          ],
-         "packages":[
+         "package_size":[
             {
-            "package_id":1,
+            "p_id":7,
             "package_size":"200 G",
             "package_cost":"₹1000.00"
 
             },
             {
-               "package_id":2,
-               "package_size":"275 G",
-                "package_cost":"₹900.00"
+            "p_id":7,
+            "package_size":"275 G",
+            "package_cost":"₹900.00"
 
             }
          ],
